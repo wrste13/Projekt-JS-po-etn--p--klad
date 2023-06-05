@@ -8,9 +8,25 @@
     <title>Document</title>
 </head>
 <body>
+    <h1> Objem a Obsah Koule </h1>
     <p>
-        r: <input type="number" id="polomer"> cm<br>
-        <button onclick="vypoctiObjem()"> vypočítat</button><br>
-        <span id="vysledek"></span>
+        Poloměr: <input type="number" id="polomer"> cm<br><br>
+        <button onclick="vypoctiObjem()"> vypočítat objem</button><br>
+        <button onclick="vypoctiObsah()"> vypočítat povrch</button><br><br>
+        Objem=<span id="vysledek1"></span> cm3 <br>
+        Povrch=<span id="vysledek2"></span> cm2<br>
+        <img src="Koule.jpg" alt="obrázek">
+    </p>
+    <h2> Kontrola </h2>
+    <h4>    Výsledek uveď zakokrouhlený na 2 desetiná místa</h4>
+    <p>
+        Poloměr: <input type="number" id="polomer2"> cm<br>
+        Objem: <input type="number" id="obj"> cm<br><br>
+        Povrch: <input type="number" id="pvr"> cm<br><br>
+        <button onclick="zkontrolujObjem()"> zkontrolovat objem</button><br>
+        <button onclick="zkontrolujObsah()"> zkontrolovat povrch</button><br><br>
+        Objem:<span id="vysledek3"></span><br>
+        Povrch:<span id="vysledek4"></span>
+    </p>
 </body>
 </html>
